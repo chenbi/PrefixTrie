@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SecureKey</string>
+    <string name="text_parsing">Text Parsing</string>
+    <string name="bit_manipulation">Bit Manipulation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_tv">Enter String Here:</string>
+    <string name="parse">Parse</string>
+    <string name="result">Result</string>
+    <string name="notes">* Not all the dictionary words are English</string>
+    <string name="loading">Loading Dictionary of 10000 Words</string>
+    <string name="loaded">Dictionary Loaded</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_a_intger">Enter an Intger</string>
+    <string name="non_empty">Input fields can\'t be empty</string>
+    <string name="too_big">Numbers too big</string>
+</resources>

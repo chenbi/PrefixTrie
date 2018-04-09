@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.securekey.securekey.ui.bitmanipulation.BitFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_b"
+        android:layout_alignBottom="@+id/input_b"
+        android:layout_toStartOf="@+id/calculate"
+        android:ems="10"
+        android:hint="@string/enter_a_intger"
+        android:inputType="number"
+        android:maxLength="10"/>
+
+
+    <EditText
+        android:id="@+id/input_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/calculate"
+        android:ems="10"
+        android:hint="@string/enter_a_intger"
+        android:inputType="number"
+        android:maxLength="10"/>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/calculate"
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_a"
+     />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/calculate"
+        android:hint="@string/result"/>
+
+
+</RelativeLayout>
+
+</FrameLayout>
